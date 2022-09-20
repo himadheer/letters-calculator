@@ -1,0 +1,98 @@
+/* Write your code here. */
+.bg-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculate-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width:300px;  
+}
+
+.heading {
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 992px) {
+  .heading {
+    font-size: 38px;
+  }
+}
+.label {
+  font-size: 10px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #e4e7eb;
+}
+
+@media screen and (min-width: 992px) {
+  .label {
+    font-size: 14px;
+  }
+}
+
+.input {
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #e4e7eb;
+  background-color: transparent;
+  border: 1px solid #e4e7eb;
+  outline: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+@media screen and (min-width: 992px) {
+  .input {
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+}
+
+.letters-count {
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #1d976c;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 992px) {
+  .letters-count {
+    font-size: 20px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+.image {
+  height: 180px;
+  width: 250px;
+}
+
+@media screen and (min-width: 992px) {
+ .image {
+  height: 340px;
+  width: 400px;
+}
+}
